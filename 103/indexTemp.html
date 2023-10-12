@@ -7,13 +7,22 @@
     <title>Assignments</title>
   </head>
   <body>
-    <button
+    <!-- <button
       type="button"
       class="btn btn-primary"
       onclick="convertTemperatureRange(Number(prompt('Enter start value:')), Number(prompt('Enter end value:')), prompt('Enter C or F:'))"
     >
       Temperature Details
+    </button> -->
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      onclick="convertTemperatureRange(Number(prompt('Enter a temperature:')), prompt('Enter C or F:'))"
+    >
+      Temperature Details
     </button>
+
     <div id="product-results"></div>
   </body>
   <script src="./Scripts/tempConverter.js"></script>
