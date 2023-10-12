@@ -1,0 +1,30 @@
+/*task to complete*/
+label {
+  font-weight: bold;
+}
+input {
+  padding: 5px;
+}
+
+/*my list*/
+ul.list li {
+  color: black;
+  font-weight: bold;
+}
+
+/*total tasks*/
+p {
+  font-weight: bold;
+}
+.count {
+  color: red;
+}
+
+/*btn add task*/
+button.add-task {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 7px;
+}
